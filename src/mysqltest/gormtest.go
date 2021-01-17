@@ -47,7 +47,7 @@ func Gormtest() {
 		}
 	}()
 	res := query()
-	fmt.Println("来：", res)
+	fmt.Println("来 ：", res)
 	defer gormdb.Close()
 
 }
